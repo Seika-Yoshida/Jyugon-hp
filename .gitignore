@@ -1,0 +1,14 @@
+# Yaml settings includes credentials
+src/app.yaml
+
+# Python env
+venv
+.venv
+__pycache__/
+
+# IDE
+.idea
+.vscode
+
+# misc
+.DS_Store

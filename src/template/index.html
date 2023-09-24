@@ -1,0 +1,190 @@
+{% extends "base.html" %}
+{% block title %}ホーム{% endblock title %}
+{% block body_class %}index{% endblock body_class %}
+
+{% block css %}
+
+#header {
+  height: 700px;
+  background: none;
+}
+
+.sf-menu > li > a {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 12px;
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+{% endblock css %}
+{% block javascript %}
+<script src="/media/js/jquery.vide.js"></script>
+<script>
+function init(){
+    $('#header').vide('/media/video/topvideo',{
+    position: '0% 0%',
+    autoplay: true,
+    muted: true,
+    resizing: true,
+    posterType: 'detect',
+    });
+};
+
+window.onload=init;
+</script>
+<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+{% endblock javascript %}
+
+{% block addtional_header %}
+{% endblock addtional_header %}
+
+{% block content %}
+
+    <br><br><br>
+	<div class="full-width-container block-5">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span>オンラインコース</span></h2>
+					</header>
+				</div>
+
+				<div class="grid_4">
+					<article>
+						<a href="https://www.udemy.com/course/pythonfx/?referralCode=6AA7E83564D01E1EF94F" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_python_fx.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/course/pythonfx/?referralCode=6AA7E83564D01E1EF94F" target="_blank">現役シリコンバレーエンジニアが教えるPythonでFXのシストレFintechアプリの開発</a>
+                        </h6>
+                            <p>
+今回扱うFintech技術では、日本でも人気のあるFXの自動トレードをPythonで行い、グローバルで使われているOandaサービスのAPIを使って行います。日本で人気があるという理由でFXにしましたが、FXではなくても、APIを使ってトレードするやり方さえ学べば、例えば株式や仮想通貨のトレードなどでも十分に使える技術を学ぶことができますので、FXにご興味ない方でも自動トレードが何かということを学べる講座になっております。
+
+                        </p>
+                        <a href="https://www.udemy.com/course/pythonfx/?referralCode=6AA7E83564D01E1EF94F" target="_blank"> class="btn">More</a>
+					</article>
+				</div>
+
+				<div class="grid_4">
+					<article>
+						<a href="https://www.udemy.com/python-blockchain/?couponCode=SPECIALOFFER" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_python_blockchain.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/python-blockchain/?couponCode=SPECIALOFFER" target="_blank">Pythonで始めるスクラッチからのブロックチェーン開発入門</a>
+                        </h6>
+                            <p>
+                            本コースでは、Pythonを使いスクラッチからブロックチェーンを開発します。Blockchain技術は難しい技術資料が多く、わかりにくい点が多々ありますが、実際にコーディングして実装すること
+で理解がしやすくなることかと思います。また、ブロックチェーンができるエンジニアの求人はシリコンバレーでも増えており、今後ブロックチェーンが開発できるエンジニアの希少性が高まることかと思います。プロックチ
+ェーンのエンジニアならないとしても、ブロックチェーンを実装された経験は就職や転職の際に提出する履歴書の中でも目立つものとなることかと思います。この機会にブロックチェーンの実装をしてみませんか。
+                        </p>
+						<a href="https://www.udemy.com/python-blockchain/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+				<div class="grid_4">
+					<article>
+						<a href="https://www.udemy.com/go-blockchain/?couponCode=23E1F24DDB446C6687C3" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_go_blockchain.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/go-blockchain/?couponCode=23E1F24DDB446C6687C3" target="_blank">Goで始めるスクラッチからのブロックチェーン開発入門</a>
+                        </h6>
+                            <p>
+                            本コースでは、Goを使いスクラッチからブロックチェーンを開発します。Blockchain技術は難しい技術資料が多く、わかりにくい点が多々ありますが、実際にコーディングして実装すること
+で理解がしやすくなることかと思います。また、ブロックチェーンができるエンジニアの求人はシリコンバレーでも増えており、今後ブロックチェーンが開発できるエンジニアの希少性が高まることかと思います。プロックチ
+ェーンのエンジニアならないとしても、ブロックチェーンを実装された経験は就職や転職の際に提出する履歴書の中でも目立つものとなることかと思います。この機会にブロックチェーンの実装をしてみませんか。
+                        </p>
+						<a href="https://www.udemy.com/python-blockchain/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+			</div>
+            <br>
+
+			<div class="row">
+
+				<div class="grid_4">
+					<article>
+
+						<a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_go_drone.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">Go入門 + ドローンプログラミング</a>
+                        </h6>
+                            <p>本コースでは、GoとGobotを使ったドローンプログラミングを行います。Gobotに慣れれば、Gobotに対応する他のロボットも扱えるようになるかと思います。今、ロボット時代と言われるよう、今後AIとロボットが発展するのは明らかです。今回使用するドローンはトーイドローンなので、高度なロボットという難しいものではなく、Goに慣れながら、簡易的に室内などでドローンを動かしてみようというレベルになっております。日本でもお子さんのプログラミング教育にも注目されてきておりますが、このコースで習ったドローンブログラミングをお子さんに教えてあげるのも良いかと思います。</p>
+						<a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+				<div class="grid_4">
+					<article>
+
+						<a href="https://www.udemy.com/python-drone/?couponCode=SPECIALOFFER" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_python_drone.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/python-drone/?couponCode=SPECIALOFFER" target="_blank">未経験者のためのPythonドローンプログラミング</a>
+                        </h6>
+                            <p>本コースでは、Python3を使ったドローンプログラミングを行います。今、ロボット時代と言われるよう、今後AIとロボットが発展するのは明らかです。今回使用するドローンはトーイドローンなので、高度なロボットという難しいものではなく、Pythonに慣れながら、簡易的に室内などでドローンを動かしてみようというレベルになっております。日本でもお子さんのプログラミング教育にも注目されてきておりますが、このコースで習ったドローンブログラミングをお子さんに教えてあげるのも良いかと思います。</p>
+						<a href="https://www.udemy.com/python-drone/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+				<div class="grid_4">
+					<article>
+
+						<a href="https://www.udemy.com/go-fintech/?couponCode=SPECIALOFFER" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_go_fintech.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/go-fintech/?couponCode=SPECIALOFFER" target="_blank">Go入門 + 応用でビットコインのシストレFintechアプリの開発</a>
+                        </h6>
+                            <p>このコースでは、Goの基礎である入門コースを一通り終えた後に、次世代のFintech（金融＋テクノロジー）のアプリケーションとしてビットコインを自動でシステムトレードを行うアプリを開発します。多くの言語の良い部分を取りれたGoは、コードを実行する際のパフォーマンスも良く、近年急速にライブラリも充実して来ており、シリコンバレーで多くの企業が取り入れ始めました。日本では、ドキュメントも少なく、Go言語を使う機会があまりないかもしれませんが、世界のトップ企業はすでに使い始めているため、技術レベルで世界から遅れないように今からGo始めると良いかと思います。</p>
+						<a href="https://www.udemy.com/go-fintech/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+			</div>
+            <br>
+			<div class="row">
+	
+				<div class="grid_4">
+					<article>
+
+						<a href="https://www.udemy.com/python-beginner/?couponCode=SPECIALOFFER" target="_blank">
+						    <div class="img_container"><img height=220 src="/media/img/course/udemy_python_beginner.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/python-beginner/?couponCode=SPECIALOFFER" target="_blank">Python 3入門 + 応
+                            用 <BR>+ コードスタイルを学ぶ</a>
+                        </h6>
+                            <p>このコースでは、Python3の基礎である入門コースを一通り終えた後に、今後のアプリケーション開発に役立つためのPython のテクニックやデーターベースアクセス、WEB関連などのPythonを使った応用編を取り入れております。また、Pythonのコードをただ書いて、プログラムが動けば良いというだけではなく、コードスタイルに関しても言及しております。pythonicにと言われるように、PythonはPythonらしく綺麗でわかりやすいコードを書くことが大切です。</p>
+						<a href="https://www.udemy.com/python-beginner/?couponCode=SPECIALOFFER" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+				<div class="grid_4">
+					<article>
+
+						<a href="https://www.udemy.com/course/ajail-scrum/" target="_blank">
+						    <div class="img_container"><img src="/media/img/course/udemy_ajail.png" alt=""></div>
+                        </a>
+						<h6>
+                            <a href="https://www.udemy.com/course/ajail-scrum/" target="_blank">現役シリコンバレーエンジニアが教えるアジャイル開発</a>
+                        </h6>
+                            <p>このコースでは、あらゆるレベルのビジネスプロフェッショナルが理解しやすい方法でアジャイルとスクラムの
+基本をカバーします。アジャイルとスクラムの基礎に関するこのコースから得られる知識を使用して、アジャイルとスクラムに適した環境を作成>できます。アジャイルとスクラムの開発方法を取り入れれば、プロジェクトが失敗するのを防ぐことにも繋がる可能があります。このAjailプロジ
+ェクト管理方法は、チームワークが特に重要であり、チームメンバー間の相互信頼を高め、対人関係を改善することもできるでしょう。</p>
+						<a href="https://www.udemy.com/course/ajail-scrum/" target="_blank" class="btn">More</a>
+					</article>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}

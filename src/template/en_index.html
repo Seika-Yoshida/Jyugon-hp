@@ -1,0 +1,206 @@
+{% extends "en_base.html" %}
+{% block title %}Home{% endblock title %}
+{% block body_class %}index{% endblock body_class %}
+
+{% block css %}
+#header {
+  height:700px;
+  background: none;
+}
+
+.sf-menu > li > a {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 12px;
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+{% endblock css %}
+{% block javascript %}
+<script src="/media/js/jquery.vide.js"></script>
+<script>
+function init(){
+    $('#header').vide('/media/video/topvideo',{
+    position: '0% 0%',
+    autoplay: true,
+    muted: true,
+    resizing: true,
+    posterType: 'detect',
+    });
+};
+
+window.onload=init;
+</script>
+
+{% endblock javascript %}
+
+{% block addtional_header %}
+<div class="grid_12">
+</div>
+{% endblock addtional_header %}
+
+{% block content %}
+	<div class="full-width-container block-2">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span>Video</span></h2>
+					</header>
+				</div>
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/course/pythonfx/?referralCode=6AA7E83564D01E1EF94F" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_python_fx.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px">
+                            <a href="https://www.udemy.com/course/pythonfx/?referralCode=6AA7E83564D01E1EF94F" target="_blank">
+                            Python + Forex (Japanese)
+                            </a>
+                            </h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/go-blockchain/" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_go_blockchain.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px">
+                            <a href="https://www.udemy.com/go-blockchain/" target="_blank">
+                            Go + Blockchain (Japanese)
+                            </a>
+                            </h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_go_drone.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px">
+                            <a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">
+                            Go + Drone (Japanese)
+                            </a>
+                            </h6>
+                    </article>
+                </div>
+            </div>
+			<div class="row">
+	
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/python-drone/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_python_drone.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px">
+                            <a href="https://www.udemy.com/python-drone/?couponCode=SPECIALOFFER" target="_blank"> Python + Drone (Japanese) </a>
+                            </h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_go_drone.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/go-drone/?couponCode=SPECIALOFFER" target="_blank">Python 3 (Japanese)</a></h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/python-beginner/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_python_beginner.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/python-beginner/?couponCode=SPECIALOFFER" target="_blank">Python 3 (Japanese)</a></h6>
+                    </article>
+                </div>
+
+            </div>
+			<div class="row">
+
+   				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/go-fintech/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_go_fintech.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/go-fintech/?couponCode=SPECIALOFFER" target="_blank">Go + Bitcoin (Japanese)</a></h6>
+                    </article>
+                </div>
+
+
+   				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/jun-sakai-trading-course1/" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_stock_1.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/jun-sakai-trading-course1/" target="_blank">How to study stock trading strategies (Japanese)</a></h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/jun-sakai-trading-course5/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_stock_2.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/jun-sakai-trading-course5/?couponCode=SPECIALOFFER" target="_blank">Finance (Japanese)</a></h6>
+                    </article>
+                </div>
+
+            </div>
+			<div class="row">
+
+    		 	<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/jun-sakai-trading-course3/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_stock_3.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/jun-sakai-trading-course3/?couponCode=SPECIALOFFER" target="_blank">Fundamental analysis (Japanese)</a></h6>
+                    </article>
+                </div>
+
+
+				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/jun-sakai-trading-course4/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_stock_4.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/jun-sakai-trading-course4/?couponCode=SPECIALOFFER" target="_blank">Technical analysis (Japanese)</a></h6>
+                    </article>
+                </div>
+    
+
+   				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/jun-sakai-trading-course2/?couponCode=SPECIALOFFER" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_stock_5.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/jun-sakai-trading-course2/?couponCode=SPECIALOFFER" target="_blank">What is behavioral economics (Japanese)</a></h6>
+                    </article>
+                </div>
+            </div>
+			<div class="row">
+
+   				<div class="grid_4">
+					<article>
+                            <a href="https://www.udemy.com/course/ajail-scrum/" target="_blank">
+                            <div class="img_container"><img src="/media/img/course/udemy_ajail.png" alt="img"></div>
+                            </a>
+                            <h6 style="margin-top: 40px"><a href="https://www.udemy.com/course/ajail-scrum/" target="_blank">Ajail Development (Japanese)</a></h6>
+                    </article>
+                </div>
+            </div>
+
+		</div>
+	</div>
+
+{% endblock content %}

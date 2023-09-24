@@ -1,0 +1,21 @@
+.blog h1{
+    position: relative;
+    padding: .25em 0 .5em .75em;
+    border-left: 6px solid #3498db;
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+.blog h1::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.blog p {
+    font-family: arial, sans-serif;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Jyugon Corp| {% block title %}{% endblock title %}</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no"/>
+    <meta name="author" content="Jygon Corp">
+    <meta name="keywords" content="Jyugon,Jygon Corp, 酒井潤,酒井 潤,酒井　潤,Jun Sakai,サッカー,Udemy,プログラミング, スクール">
+    <meta name="description" content="Jyugon Corpのホームページ">
+
+    <link rel="icon" href="/media/img/top/favicon.ico">
+	<link rel="stylesheet" href="/media/css/grid.css">
+	<link rel="stylesheet" href="/media/css/style.css">
+	<link rel="stylesheet" href="/media/css/camera.css">
+	<link rel="stylesheet" href="/media/css/owl.carousel.css">
+    <link rel="stylesheet" href="/media/css/font-awesome-4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+
+	<script src="/media/js/jquery.js"></script>
+	<script src="/media/js/jquery-migrate-1.2.1.js"></script>
+	<script src='/media/js/camera.js'></script>
+	<script src="/media/js/owl.carousel.js"></script>
+	<script src="/media/js/jquery.stellar.js"></script>
+	<script src="/media/js/script.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="/media/js/jquery.mobile.customized.min.js"></script>
+	<script src="/media/js/wow.js"></script>
+	<!--<![endif]-->
+
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="/media/js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+    <style>{% block css %}{% endblock css %}</style>
+
+	</head>
+
+    {% block javascript %}{% endblock javascript %}
+
+<body class="{% block body_class %}{% endblock body_class %}">
+
+<!--==============================header=================================-->
+
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<h1><a href="/"><font style="font-family: Arial Black, Gadget, sans-serif">Jyugon Corp</font></a></h1>
+					<nav>
+						<ul class="sf-menu">
+                            <li {% if template_name == 'index.html' %}class='current'{% endif %}><a href='/'>ホーム</a></li>
+                            <li {% if template_name == 'profile.html' %}class='current'{% endif %}><a href='/profile'>会社概要</a></li>
+                            <li {% if template_name == 'online_course.html' %}class='current'{% endif %}><a href='/onlinecourse'>オンラインコース</a></li>
+                            <li {% if template_name == 'contact.html' %}class='current'{% endif %}><a href='/contact'>問い合わせ</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+{% block content %}{% endblock content %}
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h3><span>連絡先</span></h3>
+				<a href="mailto:sales@jyugon.com" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
+				<a href="https://www.facebook.com/sakaijunsoccer" target="_blank" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="https://twitter.com/sakaijun" target="_blank" class="btn bd-ra"><span class="fa fa-tumblr"></span></a>
+				<pre>© <span id="copyright-year"></span></pre>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

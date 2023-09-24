@@ -1,0 +1,6 @@
+appengine-python-standard>=1.0.0
+email_validator==2.0.0
+flask==2.2.2
+jinja2
+sendgrid==6.10.0
+WTForms==3.0.1
